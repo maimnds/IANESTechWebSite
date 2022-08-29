@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #00dbde 0%, #00f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  max-width: 100%;
+  overflow: hidden;
+
+}
+
+.header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+
+
+
+
+.section {
+  width: 26vw;
+  height: 37vh;
+  margin: auto;
+  float: right;
+  margin-right: -30px;
+  border-radius: 13px;
+  margin-top: -350px;
+
+}
+
+.topo {
+  color: #3a89c9;
+}
+
+.topo h2 {
+  font-weight: normal;
+  font-size: 19px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form {
+  padding: 30px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button {
+  background-color: #63d3ff;
+  color: #fff;
+  border: 1px solid white;
+  font-size: 15px;
+  width: 10vw;
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
+  margin-right: 130px;
+  margin-top: 0px;
+}
+
+/* Error and Success */
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+@media screen and (max-width: 1400px) {
+  .section {
+    width: 100vw;
+    float: right;
+    margin-right: -800px;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section {
+    width: 100vw;
+    float: right;
+    margin-right: -500px;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section {
+    width: 100vw;
+    float: right;
+    margin-right: -500px;
+    margin-top: -200px;
+
+
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .section {
+    width: 100vw;
+    float: right;
+    margin-right: -600px;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .section {
+    width: 80vw;
+    float: right;
+    margin-right: -40px;
+    margin-top: -400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form button {
+    width: 20vw;
+    float: left;
+    margin-left: 170px;
+  }
+}
+
+
+@media screen and (max-width: 467px) {
+  .section {
+    width: 100vw;
+    float: right;
+    margin-right: 0px;
+    margin-top: -350px;
+  }
+
+
+}
+
+@media screen and (max-width: 467px) {
+  .form button {
+    width: 20vw;
+  }
+
+
+}
+
+
+@media screen and (max-width: 300px) {
+  .form button {
+    width: 30vw;
+    float: right;
+    margin-right: 75px;
+
+  }
+  .section {
+    width: 100vw;
+    height: 100vh;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+
+<body >
+
+
+
+    <main>
+
+        <section class="section">
+            <div class="topo">
+                <h2>Ianes Tech</h2>
+            </div>
+            <div class="container">
+                
+
+                <form name="login" id="form" class="form">
+                    <div class="form-control">
+                        <label id="userLabel" for="username">Login</label>
+                        <input name="user" type="text" id="username" placeholder="Digite seu nome de usuário..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+
+
+                    <div class="form-control">
+                        <label id="senhaLabel" for="password">Senha</label>
+                        <input name="senha" type="password" id="password" placeholder="Digite sua senha..." />
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <h5 align="right">
+                        Não tem uma Conta?<a href="cadastro.html">Cadastre-se</a>
+                    </h5>
+                    <br>
+                    <h5 align="left">
+                        <a href="index.html">Voltar para a Tela Inicial</a>
+                    </h5>
+                    
+                    <br>
+                    <button style="cursor: pointer;" onclick='return entrar()'>Entrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+   
+
+
+    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+
+    <script src="./login.js"></script>
+
+
+
+
+</body>
+
+
+
+
+</html>
